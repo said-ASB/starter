@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+
+    
+}
+body{
+    background-color: hsl(205, 100%, 96%);
+}
+.header{
+    margin-bottom: 62px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.our{
+    text-align: center;
+    letter-spacing:6px;
+    font-weight: bolder;
+    color: hsl(205, 86%, 17%);
+    font-family: "Roboto", sans-serif;
+    font-size: 38px;
+}
+.underline::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: hsl(205, 63%, 48%);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+}
+.thebox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 540px;
+    height: 450px;
+    background-color: #fff;
+    
+} 
+
+.cercle{
+    width: 130px;
+    height: 120px;
+    margin-top: 24px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: hsl(205, 63%, 48%);
+}
+.img1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.thename {
+    font-size:20px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+.job{
+    margin-top: 8px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    color: hsl(205, 78%, 60%);
+    text-transform: uppercase;
+}
+.desc{
+    text-align: center;
+    margin-top: 18px;
+    font-weight: lighter;
+    color: hsl(210, 22%, 49%);
+    line-height: 28px;
+    font-size: 20px;
+    width: 440px;
+}
+.btns{
+    text-align: center;
+    margin-top: 22px;
+}
+.but1 button{
+    border: none;
+    background: none;
+    font-size: large;
+    letter-spacing: 12px;
+    color: hsl(205, 78%, 60%);
+    cursor: pointer;
+    transition:  all 0.3s linear;;
+}
+.but1 button:hover{
+    color: hsl(205, 77%, 27%);
+
+}
+.surprise button{
+  
+    display: flex;
+    align-items: center;  
+    margin-top: 18px;  
+    border-color: hsl(205, 78%, 60%);
+    color: hsl(205, 78%, 60%);
+  padding: 6px;
+  border-radius: 10px;
+  background:   hsl(205, 100%, 96%);
+  cursor: pointer;
+   
+}
+.surprise button:hover{
+    background-color: hsl(205, 63%, 48%);
+    color: hsl(205, 86%, 17%);
+    transition: all 0.3s linear;
+}
+
+
+
+
+
+
+
+
+
+
+    

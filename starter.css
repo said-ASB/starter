@@ -108,10 +108,10 @@ body{
     margin-top: 18px;  
     border-color: hsl(205, 78%, 60%);
     color: hsl(205, 78%, 60%);
-  padding: 6px;
-  border-radius: 10px;
-  background:   hsl(205, 100%, 96%);
-  cursor: pointer;
+    padding: 6px;
+    border-radius: 10px;
+    background:   hsl(205, 100%, 96%);
+    cursor: pointer;
    
 }
 .surprise button:hover{
